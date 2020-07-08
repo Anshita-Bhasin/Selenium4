@@ -39,18 +39,20 @@ public class HomePageTest extends TestBase {
 
     @Test(priority = 1)
     public void verifyHomePageTitleTest() {
-        String title = homePage.verifyHomePageTitle();
+        String expected="Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience";
+        String title = homePage.verifyHomePageTitle(expected);
         Assert.assertEquals(title, "Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience",
             " Home Page Title Validation");
     }
 
+
     @Test(priority = 2)
     public void verifyUserNameTest() {
         Boolean label = homePage.verifyUserNameLabel();
-        Assert.assertTrue(label, " UserName Valdation");
+        Assert.assertTrue(label, " UserName Validation");
     }
 
-    @Test(priority = 3)
+    /*@Test(priority = 3)
     public void verifyBookLinkTest() throws IOException {
         bookPage = homePage.clickOnBookLink();
     }
@@ -64,7 +66,7 @@ public class HomePageTest extends TestBase {
     public void verifyExperienceLinkTest() {
         experiencePage = homePage.clickOnExperienceLink();
     }
-
+*/
     @AfterMethod
     public void teardown() {
         driver.quit();

@@ -55,6 +55,8 @@ public class TestBase {
         driver
             .manage()
             .deleteAllCookies();
+
+        System.out.println(" ------------url is " + prop.getProperty("url"));
         driver
             .manage()
             .timeouts()
@@ -63,7 +65,7 @@ public class TestBase {
             .manage()
             .timeouts()
             .implicitlyWait(ImplicitlyWait, TimeUnit.SECONDS);
-        driver.get(prop.getProperty("url"));
+        driver.get("https://www.emirates.com/ae/english/");
     }
 
 }

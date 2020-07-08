@@ -26,18 +26,15 @@ public class LoginTest extends TestBase {
     @Test(priority = 1)
     public void verifyTitle() {
         String title = loginPage.verifyTitle();
-        Assert.assertEquals(title, "Login to Emirates | The Emirates Experience | Emirates United Arab Emirates", " Home Page Validation ");
+        Assert.assertEquals(title,
+            "Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience", " Title validation");
+
     }
 
     @Test(priority = 2)
     public void loginPageImageTest() {
         Boolean image = loginPage.verifyLoginImage();
         Assert.assertTrue(image, " HomePage Image Validation");
-    }
-
-    @Test(priority = 3)
-    public void loginPageRedirectTest() {
-        loginPage.clickLogin();
     }
 
     @Test(priority = 4)
