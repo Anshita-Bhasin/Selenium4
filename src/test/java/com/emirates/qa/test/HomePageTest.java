@@ -1,26 +1,23 @@
 package com.emirates.qa.test;
 
 import com.emirates.qa.base.TestBase;
-import com.emirates.qa.pages.BookFlightsPage;
-import com.emirates.qa.pages.ExperiencePage;
-import com.emirates.qa.pages.HomePage;
-import com.emirates.qa.pages.LoginPage;
-import com.emirates.qa.pages.ManagePage;
+import com.emirates.qa.pages.*;
 import com.emirates.qa.util.TestUtil;
-import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class HomePageTest extends TestBase {
 
-    HomePage        homePage;
-    LoginPage       loginPage;
-    TestUtil        testUtil;
+    HomePage homePage;
+    LoginPage loginPage;
+    TestUtil testUtil;
     BookFlightsPage bookPage;
-    ManagePage      managePage;
-    ExperiencePage  experiencePage;
+    ManagePage managePage;
+    ExperiencePage experiencePage;
 
     public HomePageTest() throws IOException {
         super();
@@ -39,10 +36,10 @@ public class HomePageTest extends TestBase {
 
     @Test(priority = 1)
     public void verifyHomePageTitleTest() {
-        String expected="Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience";
+        String expected = "Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience";
         String title = homePage.verifyHomePageTitle(expected);
         Assert.assertEquals(title, "Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience",
-            " Home Page Title Validation");
+                " Home Page Title Validation");
     }
 
 
@@ -50,6 +47,13 @@ public class HomePageTest extends TestBase {
     public void verifyUserNameTest() {
         Boolean label = homePage.verifyUserNameLabel();
         Assert.assertTrue(label, " UserName Validation");
+    }
+
+    @Test(priority = 3)
+    public void verifyFlightSearchTest() throws IOException {
+
+        bookPage=  homePage.searchFlight();
+
     }
 
     /*@Test(priority = 3)

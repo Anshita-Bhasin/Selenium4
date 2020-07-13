@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 
 public class Emirates {
 
+
     public static WebDriver  driver;
     public static Properties prop;
 
@@ -112,7 +113,7 @@ public class Emirates {
         wait.until(ExpectedConditions.titleContains(
             "Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience"));
 
-        Assert.assertTrue(getUsername.isDisplayed());
+
 
     }
 
