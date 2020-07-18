@@ -7,12 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
-import static com.emirates.qa.util.TestUtil.ClickOnHiddenTextBox;
-import static com.emirates.qa.util.TestUtil.ExplicitWait;
+import static com.emirates.qa.util.TestUtil.explicitWaitTitle;
 
 public class HomePage extends TestBase {
 
-    @FindBy(xpath = "//span[text()='Ab']") 
+
+    @FindBy(xpath = "//span[text()='Ab']")
     WebElement userNameLabel;
     @FindBy(xpath = "//a[contains(text(),'BOOK')]")
     WebElement bookLink;
@@ -22,9 +22,9 @@ public class HomePage extends TestBase {
     WebElement manageLink;
     @FindBy(xpath = "//a[contains(text(),'EXPERIENCE')]")
     WebElement experienceLink;
-    @FindBy(xpath = "//*[@id='f8d06921-ccf4-4d2a-a4a4-ef17a55ac5bb']")
+    @FindBy(xpath = "//input[@name='Departure airport' and @aria-live='off']")
     WebElement departure;
-    @FindBy(xpath = "//*[@id='0c4574cf-f808-47b3-97cf-162db4676d9d']")
+    @FindBy(xpath = "//input[@name='Arrival airport' and @aria-live='off']")
     WebElement arrival;
 
 
@@ -33,7 +33,7 @@ public class HomePage extends TestBase {
     }
 
     public String verifyHomePageTitle(String title) {
-        ExplicitWait(title);
+        explicitWaitTitle(title);
         return driver.getTitle();
     }
 
@@ -44,11 +44,9 @@ public class HomePage extends TestBase {
     }
 
 
-    public BookFlightsPage searchFlight() throws IOException {
-        ClickOnHiddenTextBox(departure);
-        departure.sendKeys("Delhi");
-        ClickOnHiddenTextBox(arrival);
-        arrival.sendKeys("Dubai");
+    public BookFlightsPage verifyDatesAreVisible() throws IOException {
+        departure.isDisplayed();
+        arrival.isDisplayed();
         return new BookFlightsPage();
 
     }

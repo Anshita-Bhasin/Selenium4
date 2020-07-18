@@ -4,9 +4,7 @@ import com.emirates.qa.base.TestBase;
 import com.emirates.qa.pages.*;
 import com.emirates.qa.util.TestUtil;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 
@@ -23,14 +21,12 @@ public class HomePageTest extends TestBase {
         super();
     }
 
-    @BeforeMethod()
+    @BeforeTest()
     public void setUp() throws IOException {
         Initializer();
         testUtil = new TestUtil();
         loginPage = new LoginPage();
         bookPage = new BookFlightsPage();
-        managePage = new ManagePage();
-        experiencePage = new ExperiencePage();
         homePage = loginPage.Login(prop.getProperty("username"), prop.getProperty("password"));
     }
 
@@ -50,9 +46,9 @@ public class HomePageTest extends TestBase {
     }
 
     @Test(priority = 3)
-    public void verifyFlightSearchTest() throws IOException {
+    public void verifyDateTest() throws IOException {
 
-        bookPage=  homePage.searchFlight();
+        bookPage=  homePage.verifyDatesAreVisible();
 
     }
 

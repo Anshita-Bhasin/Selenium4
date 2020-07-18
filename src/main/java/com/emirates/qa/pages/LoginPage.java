@@ -1,6 +1,6 @@
 package com.emirates.qa.pages;
 
-import static com.emirates.qa.util.TestUtil.ClickOnHiddenTextBox;
+import static com.emirates.qa.util.TestUtil.clickOnHiddenTextBox;
 
 import com.emirates.qa.base.TestBase;
 import java.io.IOException;
@@ -34,9 +34,9 @@ LoginPage extends TestBase {
 
     public HomePage Login(String un, String pwd) throws IOException {
         login.click();
-        ClickOnHiddenTextBox(username);
+        clickOnHiddenTextBox(username);
         username.sendKeys(un);
-        ClickOnHiddenTextBox(password);
+        clickOnHiddenTextBox(password);
         password.sendKeys(pwd);
         submit.click();
         driver

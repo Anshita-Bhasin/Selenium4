@@ -1,10 +1,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Selenium4" verbose="1">
+<suite name="Selenium4" verbose="2">
+    <listeners>
+        
+        <listener class-name="com.emirates.qa.util.TransformAnnotation" />
+       <!-- <listener class-name="com.emirates.qa.util.EventListner" /> -->
+
+
+    </listeners>
     <test name="Emirates Application Test Cases">
         <classes>
             <class name="com.emirates.qa.test.LoginTest"/>
             <class name="com.emirates.qa.test.HomePageTest"/>
+            <class name="com.emirates.qa.test.BookFlightTest"/>
 
         </classes>
     </test>
