@@ -1,113 +1,112 @@
-2020-07-18 23:41:50,669  INFO [main] WebDriverManager:382 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-2020-07-18 23:41:50,680  INFO [main] WebDriverManager:382 - ====> http://tiny.cc/wdm-survey <====
-2020-07-18 23:41:54,664 DEBUG [main] ResolutionCache:403 - Resolution chrome=83 in cache (valid until 21:39:45 19/07/2020 GST)
-2020-07-18 23:41:54,667  INFO [main] WebDriverManager:403 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
-2020-07-18 23:41:55,180 DEBUG [main] WebDriverManager:393 - Driver chromedriver 83.0.4103.39 found in cache
-2020-07-18 23:41:55,183  INFO [main] WebDriverManager:393 - Exporting webdriver.chrome.driver as C:\Users\Dell-pc\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe
-2020-07-18 23:41:58,239 DEBUG [main] InternalLoggerFactory:45 - Using SLF4J as the default logging framework
-2020-07-18 23:41:58,252 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
-2020-07-18 23:41:58,253 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
-2020-07-18 23:41:58,279 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4dc27487
-2020-07-18 23:41:58,337 DEBUG [main] PlatformDependent:1015 - Platform: Windows
-2020-07-18 23:41:58,341 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
-2020-07-18 23:41:58,342 DEBUG [main] PlatformDependent0:876 - Java version: 8
-2020-07-18 23:41:58,346 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
-2020-07-18 23:41:58,348 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
-2020-07-18 23:41:58,349 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
-2020-07-18 23:41:58,353 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
-2020-07-18 23:41:58,355 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
-2020-07-18 23:41:58,356 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2020-07-18 23:41:58,356 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
-2020-07-18 23:41:58,357 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
-2020-07-18 23:41:58,358 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\Dell-pc\AppData\Local\Temp (java.io.tmpdir)
-2020-07-18 23:41:58,359 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2020-07-18 23:41:58,362 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 928514048 bytes
-2020-07-18 23:41:58,363 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2020-07-18 23:41:58,374 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
-2020-07-18 23:41:58,375 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
-2020-07-18 23:41:58,400 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
-2020-07-18 23:41:58,636 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-2020-07-18 23:41:58,637 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-2020-07-18 23:41:58,778 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2020-07-18 23:41:58,779 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2020-07-18 23:41:58,835 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
-2020-07-18 23:41:58,863 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
-2020-07-18 23:41:58,864 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
-2020-07-18 23:41:59,001 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
-2020-07-18 23:41:59,002 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
-2020-07-18 23:41:59,002 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
-2020-07-18 23:41:59,003 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
-2020-07-18 23:41:59,003 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
-2020-07-18 23:41:59,011 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
-2020-07-18 23:41:59,011 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
-2020-07-18 23:41:59,012 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
-2020-07-18 23:41:59,012 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2020-07-18 23:41:59,013 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-2020-07-18 23:41:59,013 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2020-07-18 23:41:59,014 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
-2020-07-18 23:41:59,014 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2020-07-18 23:41:59,037 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
-2020-07-18 23:41:59,038 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
-2020-07-18 23:41:59,038 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2020-07-18 23:42:03,081 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 4288 (auto-detected)
-2020-07-18 23:42:03,085 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
-2020-07-18 23:42:03,086 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
-2020-07-18 23:42:03,345 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2020-07-18 23:42:03,347 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2020-07-18 23:42:03,640 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 64:5a:04:ff:fe:b7:03:54 (auto-detected)
-2020-07-18 23:42:03,886 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-2020-07-18 23:42:03,887 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-2020-07-18 23:42:03,888 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3356052
-2020-07-18 23:42:03,968 DEBUG [AsyncHttpClient-3-1] NettyConnectListener:403 - Using new Channel '[id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287]' for 'POST' to '/session'
-2020-07-18 23:42:04,082 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2020-07-18 23:42:04,083 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2020-07-18 23:42:04,083 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
-2020-07-18 23:42:04,084 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
-2020-07-18 23:42:08,483 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
+2020-07-25 18:34:56,082  INFO [main] WebDriverManager:382 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-07-25 18:34:56,091  INFO [main] WebDriverManager:382 - ====> http://tiny.cc/wdm-survey <====
+2020-07-25 18:34:58,026 DEBUG [main] ResolutionCache:403 - Resolution chrome=84 in cache (valid until 15:03:48 26/07/2020 GST)
+2020-07-25 18:34:58,029  INFO [main] WebDriverManager:403 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-07-25 18:34:58,119 DEBUG [main] WebDriverManager:393 - Driver chromedriver 84.0.4147.30 found in cache
+2020-07-25 18:34:58,122  INFO [main] WebDriverManager:393 - Exporting webdriver.chrome.driver as C:\Users\Dell-pc\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-07-25 18:34:58,898 DEBUG [main] InternalLoggerFactory:45 - Using SLF4J as the default logging framework
+2020-07-25 18:34:58,907 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-07-25 18:34:58,908 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-07-25 18:34:58,935 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3023df74
+2020-07-25 18:34:59,018 DEBUG [main] PlatformDependent:1015 - Platform: Windows
+2020-07-25 18:34:59,026 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
+2020-07-25 18:34:59,027 DEBUG [main] PlatformDependent0:876 - Java version: 8
+2020-07-25 18:34:59,031 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
+2020-07-25 18:34:59,033 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
+2020-07-25 18:34:59,035 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
+2020-07-25 18:34:59,039 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
+2020-07-25 18:34:59,042 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
+2020-07-25 18:34:59,043 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-07-25 18:34:59,043 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-07-25 18:34:59,044 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
+2020-07-25 18:34:59,045 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\Dell-pc\AppData\Local\Temp (java.io.tmpdir)
+2020-07-25 18:34:59,048 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-07-25 18:34:59,053 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 928514048 bytes
+2020-07-25 18:34:59,054 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-07-25 18:34:59,057 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-07-25 18:34:59,059 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-07-25 18:34:59,101 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-07-25 18:34:59,261 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-07-25 18:34:59,268 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-07-25 18:34:59,375 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-07-25 18:34:59,376 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-07-25 18:34:59,401 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-07-25 18:34:59,451 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-07-25 18:34:59,453 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-07-25 18:34:59,539 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
+2020-07-25 18:34:59,539 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
+2020-07-25 18:34:59,539 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+2020-07-25 18:34:59,539 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+2020-07-25 18:34:59,539 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+2020-07-25 18:34:59,540 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-07-25 18:34:59,540 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2020-07-25 18:34:59,540 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2020-07-25 18:34:59,541 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-07-25 18:34:59,541 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-07-25 18:34:59,542 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-07-25 18:34:59,542 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-07-25 18:34:59,542 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-07-25 18:34:59,614 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+2020-07-25 18:34:59,615 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-07-25 18:34:59,615 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-07-25 18:35:01,457 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 1216 (auto-detected)
+2020-07-25 18:35:01,461 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-07-25 18:35:01,461 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-07-25 18:35:01,672 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-07-25 18:35:01,674 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-07-25 18:35:01,928 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 64:5a:04:ff:fe:b7:03:54 (auto-detected)
+2020-07-25 18:35:02,175 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-07-25 18:35:02,175 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-07-25 18:35:02,176 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a7ce9ad
+2020-07-25 18:35:02,219 DEBUG [AsyncHttpClient-3-1] NettyConnectListener:403 - Using new Channel '[id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]' for 'POST' to '/session'
+2020-07-25 18:35:02,244 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-07-25 18:35:02,245 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-07-25 18:35:02,245 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+2020-07-25 18:35:02,246 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
+2020-07-25 18:35:10,118 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
 
 Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
 POST /session HTTP/1.1
 User-Agent: selenium/4.0.0-alpha-6 (java windows)
 Content-Length: 365
 Content-Type: application/json; charset=utf-8
-host: localhost:3287
+host: localhost:37365
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
 HTTP/1.1 200 OK
-Content-Length: 719
+Content-Length: 718
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-2020-07-18 23:42:08,544 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:3287 for channel [id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287]
-2020-07-18 23:42:09,611 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:3287 : 1
-2020-07-18 23:42:10,373 DEBUG [AsyncHttpClient-3-2] NettyConnectListener:403 - Using new Channel '[id: 0x3c50224b, L:/127.0.0.1:52369 - R:localhost/127.0.0.1:52361]' for 'GET' to '/json/version'
-2020-07-18 23:42:10,378 DEBUG [AsyncHttpClient-3-2] HttpHandler:393 - 
+2020-07-25 18:35:10,405 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:37365 for channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:35:10,967 DEBUG [AsyncHttpClient-3-2] NettyConnectListener:403 - Using new Channel '[id: 0x5537608c, L:/127.0.0.1:61338 - R:localhost/127.0.0.1:61330]' for 'GET' to '/json/version'
+2020-07-25 18:35:10,977 DEBUG [AsyncHttpClient-3-2] HttpHandler:393 - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
 GET /json/version HTTP/1.1
 User-Agent: selenium/4.0.0-alpha-6 (java windows)
-host: localhost:52361
+host: localhost:61330
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
 HTTP/1.1 200 OK
-Content-Length: 426
+Content-Length: 424
 Content-Type: application/json; charset=UTF-8
 
-2020-07-18 23:42:10,378 DEBUG [AsyncHttpClient-3-2] ChannelManager:393 - Adding key: http://localhost:52361 for channel [id: 0x3c50224b, L:/127.0.0.1:52369 - R:localhost/127.0.0.1:52361]
-2020-07-18 23:42:10,552 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x69f9fcfae6f1beba
-2020-07-18 23:42:10,632 DEBUG [AsyncHttpClient-3-3] NettyConnectListener:403 - Using new Channel '[id: 0x6d27079c, L:/127.0.0.1:52370 - R:localhost/127.0.0.1:52361]' for 'GET' to '/devtools/browser/f2bb378b-4a85-45bf-8d6e-1f4f78ccde86'
-2020-07-18 23:42:10,637 DEBUG [AsyncHttpClient-3-3] WebSocketHandler:393 - 
+2020-07-25 18:35:10,978 DEBUG [AsyncHttpClient-3-2] ChannelManager:393 - Adding key: http://localhost:61330 for channel [id: 0x5537608c, L:/127.0.0.1:61338 - R:localhost/127.0.0.1:61330]
+2020-07-25 18:35:11,105 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xcd49c24fd7992823
+2020-07-25 18:35:11,115 DEBUG [AsyncHttpClient-3-3] NettyConnectListener:403 - Using new Channel '[id: 0x42453e1e, L:/127.0.0.1:61339 - R:localhost/127.0.0.1:61330]' for 'GET' to '/devtools/browser/66aa7163-fc64-4699-81d2-1f287e49f602'
+2020-07-25 18:35:11,118 DEBUG [AsyncHttpClient-3-3] WebSocketHandler:393 - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /devtools/browser/f2bb378b-4a85-45bf-8d6e-1f4f78ccde86 HTTP/1.1
+GET /devtools/browser/66aa7163-fc64-4699-81d2-1f287e49f602 HTTP/1.1
 upgrade: websocket
 connection: upgrade
-sec-websocket-key: 9dS7wGEYl9iZQigWckLy1Q==
+sec-websocket-key: aHAWNVwMq+ugQgTCuJqfwg==
 sec-websocket-version: 13
-origin: http://localhost:52361
-host: localhost:52361
+origin: http://localhost:61330
+host: localhost:61330
 accept: */*
 user-agent: AHC/2.1
 
@@ -115,21 +114,47 @@ Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
 HTTP/1.1 101 WebSocket Protocol Handshake
 Upgrade: WebSocket
 Connection: Upgrade
-Sec-WebSocket-Accept: 7RVtf9dQGxRNq6k1tMdRx1P+/ws=
+Sec-WebSocket-Accept: BDtKPUctVd/gkvayYvaL5c8YIU0=
 
-2020-07-18 23:42:10,911 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:52361 : 1
-2020-07-18 23:42:10,911 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:3287 : 1
-2020-07-18 23:42:11,006 DEBUG [Forwarding maximizeCurrentWindow on session fc82c05f234616b4632eb28249567b14 to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287]' for 'POST' to 'http://localhost:3287/session/fc82c05f234616b4632eb28249567b14/window/maximize'
-2020-07-18 23:42:11,007 DEBUG [Forwarding maximizeCurrentWindow on session fc82c05f234616b4632eb28249567b14 to remote] NettyRequestSender:403 - Using open Channel [id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287] for POST '/session/fc82c05f234616b4632eb28249567b14/window/maximize'
-2020-07-18 23:42:12,010 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:52361 : 1
-2020-07-18 23:42:12,162 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
+2020-07-25 18:35:11,314 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:11,315 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:11,539 DEBUG [Forwarding get on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]' for 'POST' to 'http://localhost:37365/session/b3e4d1c7649c34bb58a80a0e88f4be1c/url'
+2020-07-25 18:35:11,541 DEBUG [Forwarding get on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using open Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365] for POST '/session/b3e4d1c7649c34bb58a80a0e88f4be1c/url'
+2020-07-25 18:35:12,414 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:13,514 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:14,613 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:15,715 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:16,813 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:17,913 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:18,610 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
 
 Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /session/fc82c05f234616b4632eb28249567b14/window/maximize HTTP/1.1
+POST /session/b3e4d1c7649c34bb58a80a0e88f4be1c/url HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:37365
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2020-07-25 18:35:18,611 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:37365 for channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:35:18,648 DEBUG [Forwarding maximizeCurrentWindow on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]' for 'POST' to 'http://localhost:37365/session/b3e4d1c7649c34bb58a80a0e88f4be1c/window/maximize'
+2020-07-25 18:35:18,649 DEBUG [Forwarding maximizeCurrentWindow on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using open Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365] for POST '/session/b3e4d1c7649c34bb58a80a0e88f4be1c/window/maximize'
+2020-07-25 18:35:19,014 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:20,114 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:20,638 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b3e4d1c7649c34bb58a80a0e88f4be1c/window/maximize HTTP/1.1
 User-Agent: selenium/4.0.0-alpha-6 (java windows)
 Content-Length: 3
 Content-Type: application/json; charset=utf-8
-host: localhost:3287
+host: localhost:37365
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -138,56 +163,130 @@ Content-Length: 51
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-2020-07-18 23:42:12,163 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:3287 for channel [id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287]
-2020-07-18 23:42:12,168 DEBUG [Forwarding deleteAllCookies on session fc82c05f234616b4632eb28249567b14 to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287]' for 'DELETE' to 'http://localhost:3287/session/fc82c05f234616b4632eb28249567b14/cookie'
-2020-07-18 23:42:12,169 DEBUG [Forwarding deleteAllCookies on session fc82c05f234616b4632eb28249567b14 to remote] NettyRequestSender:403 - Using open Channel [id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287] for DELETE '/session/fc82c05f234616b4632eb28249567b14/cookie'
-2020-07-18 23:42:13,111 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:52361 : 1
-2020-07-18 23:50:36,030 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Adding Candidate expired Channel [id: 0x3c50224b, L:/127.0.0.1:52369 - R:localhost/127.0.0.1:52361] isIdleTimeoutExpired=true isRemotelyClosed=false isTtlExpired=false
-2020-07-18 23:50:36,031 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:386 - Closing Idle Channel [id: 0x3c50224b, L:/127.0.0.1:52369 - R:localhost/127.0.0.1:52361]
-2020-07-18 23:50:36,223 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Closed 1 connections out of 1 in 193 ms
-2020-07-18 23:50:36,227 DEBUG [AsyncHttpClient-3-2] HttpHandler:393 - Channel Closed: [id: 0x3c50224b, L:/127.0.0.1:52369 ! R:localhost/127.0.0.1:52361] with attribute DISCARD
-2020-07-18 23:50:36,229 DEBUG [AsyncHttpClient-timer-1-1] TimeoutTimerTask:403 - Request timeout to localhost/127.0.0.1:3287 after 60000 ms for NettyResponseFuture{currentRetry=0,
-	isDone=0,
-	isCancelled=0,
-	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@6513452d,
-	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@7b4bfeca,
-	future=java.util.concurrent.CompletableFuture@16a19355[Not completed, 1 dependents],
-	uri=http://localhost:3287/session/fc82c05f234616b4632eb28249567b14/cookie,
-	keepAlive=true,
-	redirectCount=0,
-	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@40b25e62,
-	inAuth=0,
-	touch=1595101836030} after 504060 ms
-2020-07-18 23:50:36,230 DEBUG [AsyncHttpClient-timer-1-1] ChannelManager:386 - Closing Channel [id: 0xd22e064f, L:/127.0.0.1:52360 - R:localhost/127.0.0.1:3287] 
-2020-07-18 23:50:36,230 DEBUG [AsyncHttpClient-timer-1-1] NettyRequestSender:386 - Aborting Future NettyResponseFuture{currentRetry=0,
-	isDone=0,
-	isCancelled=0,
-	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@6513452d,
-	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@7b4bfeca,
-	future=java.util.concurrent.CompletableFuture@16a19355[Not completed, 1 dependents],
-	uri=http://localhost:3287/session/fc82c05f234616b4632eb28249567b14/cookie,
-	keepAlive=true,
-	redirectCount=0,
-	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@40b25e62,
-	inAuth=0,
-	touch=1595101836030}
+2020-07-25 18:35:20,639 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:37365 for channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:35:20,962 DEBUG [Forwarding findElement on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]' for 'POST' to 'http://localhost:37365/session/b3e4d1c7649c34bb58a80a0e88f4be1c/element'
+2020-07-25 18:35:20,965 DEBUG [Forwarding findElement on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using open Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365] for POST '/session/b3e4d1c7649c34bb58a80a0e88f4be1c/element'
+2020-07-25 18:35:21,109 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
 
-2020-07-18 23:50:36,231 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - Channel Closed: [id: 0xd22e064f, L:/127.0.0.1:52360 ! R:localhost/127.0.0.1:3287] with attribute DISCARD
-2020-07-18 23:50:36,235 DEBUG [AsyncHttpClient-timer-1-1] NettyRequestSender:382 - Request timeout to localhost/127.0.0.1:3287 after 60000 ms
-java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:3287 after 60000 ms
-	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
-	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2020-07-18 23:50:36,512 DEBUG [AsyncHttpClient-timer-1-1] AsyncCompletionHandler:382 - Request timeout to localhost/127.0.0.1:3287 after 60000 ms
-java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:3287 after 60000 ms
-	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
-	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b3e4d1c7649c34bb58a80a0e88f4be1c/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 68
+Content-Type: application/json; charset=utf-8
+host: localhost:37365
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2020-07-25 18:35:21,110 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:37365 for channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:35:21,214 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:21,215 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:21,583 DEBUG [Forwarding sendKeysToElement on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using pooled Channel '[id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]' for 'POST' to 'http://localhost:37365/session/b3e4d1c7649c34bb58a80a0e88f4be1c/element/bb8cc59f-85fc-4f97-9669-1b56d0785ca6/value'
+2020-07-25 18:35:21,583 DEBUG [Forwarding sendKeysToElement on session b3e4d1c7649c34bb58a80a0e88f4be1c to remote] NettyRequestSender:403 - Using open Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365] for POST '/session/b3e4d1c7649c34bb58a80a0e88f4be1c/element/bb8cc59f-85fc-4f97-9669-1b56d0785ca6/value'
+2020-07-25 18:35:22,241 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b3e4d1c7649c34bb58a80a0e88f4be1c/element/bb8cc59f-85fc-4f97-9669-1b56d0785ca6/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 285
+Content-Type: application/json; charset=utf-8
+host: localhost:37365
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2020-07-25 18:35:22,242 DEBUG [AsyncHttpClient-3-1] ChannelManager:393 - Adding key: http://localhost:37365 for channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:35:22,314 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:22,315 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:23,414 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:23,414 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:24,514 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:24,515 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:25,614 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:25,614 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:26,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:26,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:27,815 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:27,815 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:28,914 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:28,914 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:30,014 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:30,015 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:30,160 DEBUG [AsyncHttpClient-3-2] HttpHandler:393 - Channel Closed: [id: 0x5537608c, L:/127.0.0.1:61338 ! R:localhost/127.0.0.1:61330] with attribute DISCARD
+2020-07-25 18:35:30,163 DEBUG [AsyncHttpClient-3-3] WebSocketHandler:393 - Channel Closed: [id: 0x42453e1e, L:/127.0.0.1:61339 ! R:localhost/127.0.0.1:61330] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@fb3f93d,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@17099fc2,
+	future=java.util.concurrent.CompletableFuture@7d0ea71a[Completed normally],
+	uri=ws://localhost:61330/devtools/browser/66aa7163-fc64-4699-81d2-1f287e49f602,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1595687711524}
+2020-07-25 18:35:30,208 DEBUG [AsyncHttpClient-3-3] ChannelManager:386 - Closing Channel [id: 0x42453e1e, L:/127.0.0.1:61339 ! R:localhost/127.0.0.1:61330] 
+2020-07-25 18:35:31,115 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:31,116 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:61330 : 1
+2020-07-25 18:35:31,116 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Adding Candidate expired Channel [id: 0x5537608c, L:/127.0.0.1:61338 ! R:localhost/127.0.0.1:61330] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2020-07-25 18:35:31,116 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:386 - Closing Idle Channel [id: 0x5537608c, L:/127.0.0.1:61338 ! R:localhost/127.0.0.1:61330]
+2020-07-25 18:35:31,117 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Closed 1 connections out of 2 in 1 ms
+2020-07-25 18:35:32,214 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:33,314 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:34,413 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:35,515 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:36,615 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:37,713 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:38,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:39,915 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:41,015 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:42,114 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:43,214 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:44,315 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:45,414 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:46,516 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:47,615 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:48,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:49,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:50,914 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:52,014 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:53,115 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:54,213 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:55,314 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:56,413 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:57,514 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:58,613 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:35:59,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:00,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:01,914 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:03,014 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:04,114 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:05,214 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:06,314 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:07,414 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:08,514 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:09,615 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:10,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:11,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:12,914 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:14,014 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:15,114 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:16,214 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:17,315 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:18,413 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:19,513 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:20,614 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:21,714 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:22,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:393 - Entry count for : http://localhost:37365 : 1
+2020-07-25 18:36:22,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Adding Candidate expired Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365] isIdleTimeoutExpired=true isRemotelyClosed=false isTtlExpired=false
+2020-07-25 18:36:22,814 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:386 - Closing Idle Channel [id: 0x3e9431b9, L:/127.0.0.1:61329 - R:localhost/127.0.0.1:37365]
+2020-07-25 18:36:22,831 DEBUG [AsyncHttpClient-timer-1-1] DefaultChannelPool:403 - Closed 1 connections out of 1 in 17 ms
+2020-07-25 18:36:22,832 DEBUG [AsyncHttpClient-3-1] HttpHandler:393 - Channel Closed: [id: 0x3e9431b9, L:/127.0.0.1:61329 ! R:localhost/127.0.0.1:37365] with attribute DISCARD

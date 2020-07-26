@@ -38,6 +38,7 @@ public class TestBase {
     public static void Initializer() {
         String browserName = prop.getProperty("browser");
         if (browserName.equals("Chrome")) {
+
             WebDriverManager
                 .chromedriver()
                 .setup();
